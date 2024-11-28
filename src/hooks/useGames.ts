@@ -24,7 +24,7 @@ const useGames = () => {
         .then((res) => setGames(res.data.results))
         .catch((err) => 
         {
-            if (err instanceof CanceledError) return;
+            if (err instanceof CanceledError) return console.log('erroorrrrrrrrr instanceof CanceledError');
             setError("EEEEEEEEEEEroooor " + err.message)
         });
 

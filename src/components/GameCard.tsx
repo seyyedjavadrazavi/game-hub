@@ -10,8 +10,8 @@ const GameCard = ({ game }: Props) => {
   return (
     <Card
       borderRadius={{ sm: 1, md: 2, lg: 3, xlr: 5 }}
-      overflow={"hidden"}
       padding="10px"
+      overflow={"hidden"}
     >
       <Image src={game.background_image} />
       <CardBody>
